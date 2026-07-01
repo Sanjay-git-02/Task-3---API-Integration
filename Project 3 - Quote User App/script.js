@@ -27,6 +27,8 @@ const errorMessage = document.getElementById("errorMessage");
 
 const themeBtn = document.getElementById("themeBtn");
 
+const icon = themeBtn.querySelector("i");
+
 let currentQuote = {};
 let currentUser = {};
 
@@ -282,8 +284,10 @@ function toggleTheme() {
 
   if (document.body.classList.contains("dark")) {
     localStorage.setItem("theme", "dark");
+    icon.className="fa-solid fa-sun";
   } else {
     localStorage.setItem("theme", "light");
+    icon.className="fa-solid fa-moon";
   }
 }
 
