@@ -182,12 +182,6 @@ screenshots/
 git clone https://github.com/Sanjay-git-02/Task-3---API-Integration
 ```
 
-### Navigate to the Project
-
-```bash
-cd DevLaunch-Hub
-```
-
 ### Open
 
 Simply open **index.html** in your preferred web browser.
